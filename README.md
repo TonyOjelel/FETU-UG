@@ -1,4 +1,4 @@
-# 🚀 Welcome to the Federation of Engineers, Technicians, and Technologists of Uganda (FETU)! 🛠️
+## 🚀 Welcome to the Federation of Engineers, Technicians, and Technologists of Uganda (FETU)! 🛠️
 
 At FETU, we're not just another organization; we're a community dedicated to championing the interests of Engineers, Technicians, and Technologists in Uganda. Our mission is clear: to advocate for better salaries, minimum wage standards, improved job opportunities, enhanced working conditions, and ultimately, the betterment of every individual in our field.
 
