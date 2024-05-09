@@ -140,6 +140,8 @@ body {
 
 .side_btn {
   text-align: center; /* Center the button */
+  display: inline-block;
+  margin-right: 10px; /* Optional: Add some space between buttons */
 }
 
 .side_btn a {
