@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+ @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
 body {
   font-family: "Roboto", "Helvetica Neue", "Segoe UI", Helvetica, Arial,
     sans-serif;
@@ -13,7 +13,7 @@ body {
 
 }
 /*------------------------------------------------NAVBAR----------------------------------------*/
-.nav {
+ .nav {
   background-color: rgba(0, 0, 0, 0.856);
   z-index: 9;
   padding-left: 50px;
@@ -38,7 +38,7 @@ body {
 }
 .nav_side {
   float: right;
-  width: 45%;
+  width: 95%;
   margin-top: 20px;
 }
 .nav_side a {
@@ -117,6 +117,11 @@ h5 {
 
 h6 {
   font-size: 16px;
+}
+
+.typed {
+  margin: 50px;
+  color: white;
 }
 
 header {
@@ -228,7 +233,7 @@ section {
 
 .section {
   padding: 40px 0;
-  background: #fff;
+  /* background: #fff; */
 }
 
 .section-padded {
@@ -296,10 +301,6 @@ section {
   margin: 50px 0;
 }
 
-.typed {
-  margin: 50px;
-}
-
 .shit {
   border-radius: 100px;
 }
@@ -356,13 +357,13 @@ section {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.white-bg {
+/* .white-bg {
   background: white;
 }
 
 .gray-bg {
   background: #f7f7f7;
-}
+} */
 
 .blue {
   color: #00a8ff;
@@ -412,9 +413,12 @@ section {
   .modal {
     padding: 0 10px !important;
   }
+  .typed {
+    margin-top: 125px;
+  }
 }
 @media (max-width: 400px) {
   header .typed-cursor {
     display: none;
   }
-}
+} 
