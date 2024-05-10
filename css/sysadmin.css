@@ -6,7 +6,6 @@ body {
 	color: #36454F;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-image: url('/img/about_back.jpg');
 }
 
 .parallax {
@@ -206,7 +205,8 @@ section {
 	}
 
 .team {
-	margin: 100px 0;
+	margin-top: 60px;
+	margin-bottom: 15px;
 	padding-bottom: 60px;
 	background: white;
 	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.07);
@@ -234,6 +234,10 @@ section {
 
 .team .title {
 	margin: 50px 0;
+}
+
+.typed{
+	margin: 50px;
 }
 
 .shit
