@@ -5,23 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>FETU | ABOUT US</title>
+    <title>Federation of Engineers, Technicians and Technologists of Uganda</title>
     <link rel="shortcut icon" href="img/img/sslogo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="aboutresponsive.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-        <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XD6J2HVPFB"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- <style>
+        .explore {
+        background-color: #8dc572; /* Initial button color */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease; /* Smooth transition */
+    }
+    
+    .explore:hover {
+        background-color: green; /* Light green color on hover */
+    }
+    </style> -->
 
-    gtag('config', 'G-XD6J2HVPFB');
-    </script>
 </head>
 <body>
     <!-- ----------------------------------------NAVBAR----------------------------------------------------->
@@ -45,84 +55,153 @@
             </h2>
         </div>
     </div>
-    <!-- -------------------------------------------ABOUT US--------------------------------------------------------->
-    <!-- --------------------------------------------HOW WE HELP--------------------------------------------------------->
-    <div class="product product_about">
-        <h2>HOW WE HELP</h2>
-        <div class="product_container">
+    <!-- -------------------------------------------ABOUT US--------------------------------------------------------->   
+    <div class="responsive-container-block bigContainer">
+        <div class="responsive-container-block Container bottomContainer">
+          <div class="allText bottomText">
+            <p class="text-blk headingText">
+              Welcome to the Federation of Engineers, Technicians, and Technologists of Uganda (FETU)!
+            </p>
+            <p class="text-blk subHeadingText">
+              We are the voice of the people
+            </p>
+            
+            <!-- Initial visible part of the text -->
+            <p class="text-blk description">
+              At FETU, we're not just another organization; we're a community dedicated to championing the interests of Engineers, Technicians, and Technologists in Uganda. Our mission is clear: to advocate for better salaries, minimum wage standards, improved job opportunities, enhanced working conditions, and ultimately, the betterment of every individual in our field.
+            </p>
+            
+            <!-- Hidden text that will be shown when 'View More' is clicked -->
+            <div id="moreText" style="display: none;">
+              <p class="text-blk description">
+                <strong style="color: #337ab7;">Why Join FETU?</strong><br>
+                Ever felt unfairly dismissed or mistreated at work? FETU has your back. 🛡️ 
+                Worried about injuries on the job? We fight for your compensation. 💰 
+                Together, we can address the neglect our profession faces and pave the way for a brighter future. ✨
+              </p>
+              <p class="text-blk description">
+                <strong style="color: #337ab7;">Join us</strong><br>
+                Are you ready to stand up for your rights? Join FETU today and be part of a movement dedicated to your well-being. 🌟 
+                Remember, the destiny of our profession rests on our collective action. Let's take our place and drive the national development agenda forward! 🚀
+              </p>
+              <p class="text-blk description">
+                <strong style="color: #337ab7;">Get in Touch:</strong><br>
+                Want to learn more? Reach out to us and become part of something bigger. 📩 
+                Together, Let's Build a Better Tomorrow. 💪
+              </p>
+              <p class="text-blk description">
+                <strong style="color: #337ab7;">Why FETU?</strong><br>
+                We're a safe haven for all Engineers, Technicians, and Technologists, regardless of age, background, or status. 🤝
+                Our goal is simple: to build the future together. United, we stand strong; divided, we falter. 💪
+              </p>
+              <p class="text-blk description">
+                <strong style="color: #337ab7;">Our Purpose:</strong><br>
+                While existing bodies like UIPE and ERB focus on industry regulation, FETU is laser-focused on the welfare of our members.... 🎯
+                We fight for fair treatment, just compensation, and safe working conditions. ⚖️
+                Our vision extends to future collaborations with foreign firms to offer job opportunities to our members. 🌍
+              </p>
+            </div>
+            
+            <!-- View More button -->
+            <a>
+              <button class="explore" id="viewMoreBtn" onclick="toggleText()">View More</button>
+            </a>
+          </div>
+          
+          <!-- Video Container -->
+          <div class="videoContainer">
+            <iframe allowfullscreen="allowfullscreen" class="mainVideo" controls="controls" src="https://www.youtube.com/embed/8zgzW0Vn2i4">
+            </iframe>
+            <img class="dotsImg image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/cw3.svg">
+          </div>
+        </div>
+      </div>
+           
+<!-- footer -->
 
-            <div class="item">
-                <div class="item_img">
-                    <img src="images/pro1.svg">
-                </div>
-                <div class="item_content">
-                    <h3>Advocate for better salaries</h3><br>
-                    <p>Professionals in Uganda should be paid the same as their counterparts in other countries. FETU aims to rectify that.</p>
-                    <br><br><br>
+    <footer class="new_footer_area bg_color">
+        <div class="new_footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Who we are</h3>
+                            <p style="text-align: left; margin: 0;">
+                                The Federation of Engineers, Technicians and Technologists of Uganda (FETU) is an organization dedicated to championing the interests of Engineers, Technicians, and Technologists in Uganda.
+                              </p>  
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Contact Us</h3>
+                            <ul class="list-unstyled f_list">
+                                <li><a href="contact" target="_blank">H108, City Centre Complex, Luwum Street, Nakasero,</a></li>
+                                <li><a href="contact" target="_blank">Kampala, Uganda</a></li>
+                                <li><a href="tel: +256770876608">+256-770-876608</a></li>
+                                <li><a href="mailto: info@fetu-ug.org">info@fetu-ug.org</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+                            <ul class="list-unstyled f_list">
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="donate.html">Donate to FETU</a></li>
+                                <li><a href="report.html">Report a case</a></li>
+                                <li><a href="https://fetuprofessionaltrainings.rsvpify.com/">Professional Trainings</a></li>
+                                <li><a href="Team.html">Our Team</a></li>
+                                <li><a href="contact.html">Contact us</a></li>                               
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
+                            <div class="f_social_icon">
+                                <a href="https://www.facebook.com/profile.php?id=61558366355207&mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/company/fetu/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/Fetu_ug"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/Fetu_ug"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="item">
-                <div class="item_img">
-                    <img src="images/pro2.svg">
-                </div>
-                <div class="item_content">
-                    <h3>Enhanced Work Conditions</h3><br>
-                    <p>Professionals deserve good work environments. We are against all kinds of workplace injustice including toxic environments, discrimination, segregation etc..</p>
-                    <br><br>
-                </div>
+            <div class="footer_bg">
+                <div class="footer_bg_one"></div>
+                <div class="footer_bg_two"></div>
             </div>
-
-            <div class="item">
-                <div class="item_img">
-                    <img src="images/pro3.svg">
-                </div>
-                <div class="item_content">
-                    <h3>Education</h3><br>
-                    <p>We provide education and training facilities to our Engineers, Technicians, and Technologists in Uganda</p>
-                    <br><br>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-sm-7">
+                        <p class="mb-0 f_400">Copyright © 2024 FETU. All rights reserved.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <hr>
-    <!-- --------------------------------------------FOOTER-------------------------------------------------------->
-    <footer>
-        <div class="pages"> 
-            <a href="index.html"><img class="aimg" src="images/logo.png" width="250"></a> 
-            <p>Our mission is clear: to advocate for better salaries, minimum wage standards, improved job opportunities, enhanced working conditions, and ultimately, the betterment of every individual in our field.</p>
-            <a href="https://www.facebook.com/profile.php?id=61558366355207&mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/company/fetu/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/Fetu_ug"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/Fetu_ug"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        </div>
-        <div class="doc">
-            <h3>Navigation</h3>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="donate.html">Donate</a>
-            <a href="report.html">Report</a>
-            <a href="contact.html">Contact</a>
-        </div>
-        <div class="contact">
-            <h3>Contact Us</h3>
-            <a href="contact" target="_blank">Kampala, Uganda</a>
-            <a href="tel: +256770876608">256-770-876608</a>
-            <a href="mailto: info@fetu-ug.org">info@fetu-ug.org</a>
-        </div>
-        <div class="social">
-            <h3>Support</h3>
-            <p>Help us shape a better future fot children all over the world</p>
-            <div class="side_btn">
-                <a href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdieQbefi-eLTLiDyxsDtN9A3YdejL45lAleTqHdqvK3dmFFA/formResponse?pli=1&edit2=2_ABaOnudMz_0nDg5x2Soy66VF-i4teRBEAS6wEE1LWVs5XQNqSb84j8YubXg8ouI36UheWxk">REGISTER FOR FETU</a>
-            </div>
-            <div class="side_btn">
-                <a href="https://fetu-ug.org/admidio/adm_program/system/login.php">MEMBERS LOGIN PORTAL</a>
-            </div>
-        </div>
-        <hr>
-        <p>Copyright &copy; 2024 FETU. All rights reserved.</p>
     </footer>
+
+<!-- footer -->
+
+ <!-- JavaScript for View More functionality -->
+ <script>
+    function toggleText() {
+      var moreText = document.getElementById("moreText");
+      var btnText = document.getElementById("viewMoreBtn");
+  
+      if (moreText.style.display === "none") {
+        moreText.style.display = "block"; // Show the hidden text
+        btnText.innerHTML = "View Less";  // Change button text to "View Less"
+      } else {
+        moreText.style.display = "none";  // Hide the text again
+        btnText.innerHTML = "View More";  // Change button text back to "View More"
+      }
+    }
+  </script>
+
     <chat-bot platform_id="88a27cc6-9437-4065-b809-95984eb69639" user_id="1c1c72f7-0da6-4905-bccf-d6e71f4d87b7" chatbot_id="b2debc58-ba44-4862-a026-92b14a90923d"><a href="https://www.chatsimple.ai/?utm_source=widget&utm_medium=referral">chatsimple</a></chat-bot><script src="https://cdn.chatsimple.ai/chat-bot-loader.js" defer></script>
 </body>
 </html>
