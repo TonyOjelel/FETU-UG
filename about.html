@@ -15,6 +15,23 @@
     <link rel="stylesheet" href="aboutresponsive.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <!-- <style>
+        .explore {
+        background-color: #8dc572; /* Initial button color */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease; /* Smooth transition */
+    }
+    
+    .explore:hover {
+        background-color: green; /* Light green color on hover */
+    }
+    </style> -->
+
 </head>
 <body>
     <!-- ----------------------------------------NAVBAR----------------------------------------------------->
@@ -43,20 +60,55 @@
         <div class="responsive-container-block Container bottomContainer">
           <div class="allText bottomText">
             <p class="text-blk headingText">
-              About us
+              Welcome to the Federation of Engineers, Technicians, and Technologists of Uganda (FETU)!
             </p>
             <p class="text-blk subHeadingText">
               We are the voice of the people
             </p>
+            
+            <!-- Initial visible part of the text -->
             <p class="text-blk description">
-                The Federation of Engineers, Technicians and Technologists of Uganda(FETU) is not just another organization; we're a community dedicated to championing the interests of Engineers, Technicians, and Technologists in Uganda. Our mission is clear: to advocate for better salaries, minimum wage standards, improved job opportunities, enhanced working conditions, and ultimately, the betterment of every individual in our field.
+              At FETU, we're not just another organization; we're a community dedicated to championing the interests of Engineers, Technicians, and Technologists in Uganda. Our mission is clear: to advocate for better salaries, minimum wage standards, improved job opportunities, enhanced working conditions, and ultimately, the betterment of every individual in our field.
             </p>
+            
+            <!-- Hidden text that will be shown when 'View More' is clicked -->
+            <div id="moreText" style="display: none;">
+              <p class="text-blk description">
+                <strong style="color: #337ab7;">Why Join FETU?</strong><br>
+                Ever felt unfairly dismissed or mistreated at work? FETU has your back. 🛡️ 
+                Worried about injuries on the job? We fight for your compensation. 💰 
+                Together, we can address the neglect our profession faces and pave the way for a brighter future. ✨
+              </p>
+              <p class="text-blk description">
+                <strong style="color: #337ab7;">Join us</strong><br>
+                Are you ready to stand up for your rights? Join FETU today and be part of a movement dedicated to your well-being. 🌟 
+                Remember, the destiny of our profession rests on our collective action. Let's take our place and drive the national development agenda forward! 🚀
+              </p>
+              <p class="text-blk description">
+                <strong style="color: #337ab7;">Get in Touch:</strong><br>
+                Want to learn more? Reach out to us and become part of something bigger. 📩 
+                Together, Let's Build a Better Tomorrow. 💪
+              </p>
+              <p class="text-blk description">
+                <strong style="color: #337ab7;">Why FETU?</strong><br>
+                We're a safe haven for all Engineers, Technicians, and Technologists, regardless of age, background, or status. 🤝
+                Our goal is simple: to build the future together. United, we stand strong; divided, we falter. 💪
+              </p>
+              <p class="text-blk description">
+                <strong style="color: #337ab7;">Our Purpose:</strong><br>
+                While existing bodies like UIPE and ERB focus on industry regulation, FETU is laser-focused on the welfare of our members.... 🎯
+                We fight for fair treatment, just compensation, and safe working conditions. ⚖️
+                Our vision extends to future collaborations with foreign firms to offer job opportunities to our members. 🌍
+              </p>
+            </div>
+            
+            <!-- View More button -->
             <a>
-              <button class="explore">
-                View More
-              </button>
+              <button class="explore" id="viewMoreBtn" onclick="toggleText()">View More</button>
             </a>
           </div>
+          
+          <!-- Video Container -->
           <div class="videoContainer">
             <iframe allowfullscreen="allowfullscreen" class="mainVideo" controls="controls" src="https://www.youtube.com/embed/8zgzW0Vn2i4">
             </iframe>
@@ -64,7 +116,7 @@
           </div>
         </div>
       </div>
-    
+           
 <!-- footer -->
 
     <footer class="new_footer_area bg_color">
@@ -133,6 +185,22 @@
     </footer>
 
 <!-- footer -->
+
+ <!-- JavaScript for View More functionality -->
+ <script>
+    function toggleText() {
+      var moreText = document.getElementById("moreText");
+      var btnText = document.getElementById("viewMoreBtn");
+  
+      if (moreText.style.display === "none") {
+        moreText.style.display = "block"; // Show the hidden text
+        btnText.innerHTML = "View Less";  // Change button text to "View Less"
+      } else {
+        moreText.style.display = "none";  // Hide the text again
+        btnText.innerHTML = "View More";  // Change button text back to "View More"
+      }
+    }
+  </script>
 
     <chat-bot platform_id="88a27cc6-9437-4065-b809-95984eb69639" user_id="1c1c72f7-0da6-4905-bccf-d6e71f4d87b7" chatbot_id="b2debc58-ba44-4862-a026-92b14a90923d"><a href="https://www.chatsimple.ai/?utm_source=widget&utm_medium=referral">chatsimple</a></chat-bot><script src="https://cdn.chatsimple.ai/chat-bot-loader.js" defer></script>
 </body>
