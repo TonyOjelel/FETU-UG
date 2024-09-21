@@ -18,29 +18,29 @@
 }
 .logo img {
   padding: 8px;
-  width: 30%;
+  width: 43%;
   margin-left: 10%;
 }
 .nav_side {
-  float: right;
-  width: 95%;
+  /* float: left; */
+  width: 140%;
   margin-top: 20px;
 }
 .nav_side a {
   text-decoration: none;
-  margin-right: 10px;
-  margin-left: 50px;
-  margin-top: 20px;
-  padding-top: 20px;
+  /* margin-right: 1px; */
+  margin-left: 9px;
+  /* margin-top: 20px;
+  padding-top: 20px; */
   padding-left: 15px;
   color: white;
   font-weight: bold;
   font-family: "Trebuchet MS", sans-serif;
-  font-size: 15px;
-  justify-content: center;
-  align-items: center;
+  font-size: 14px;
+  /* justify-content: center; */
+  /* align-items: center;
   align-content: center;
-  text-align: center;
+  text-align: center; */
 }
 .nav_side a:hover {
   color: rgb(79, 255, 88);
