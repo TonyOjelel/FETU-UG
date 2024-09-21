@@ -36,7 +36,7 @@
   color: white;
   font-weight: bold;
   font-family: "Trebuchet MS", sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   /* justify-content: center; */
   /* align-items: center;
   align-content: center;
@@ -45,6 +45,14 @@
 .nav_side a:hover {
   color: rgb(79, 255, 88);
   transition: all 1s ease;
+}
+
+h2.typed {
+  margin-top: 60px;
+  color: black; /* Make the heading text black */
+  font-size: 24px;
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: bold;
 }
 
 .parallax {
