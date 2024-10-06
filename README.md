@@ -11,8 +11,8 @@ At FETU, we're not just another organization; we're a community dedicated to cha
 - We fight for fair treatment, just compensation, and safe working conditions. ⚖️
 - Our vision extends to future collaborations with foreign firms to offer job opportunities to our members. 🌍
 
-**Why Join FETU?**
-- Ever felt unfairly dismissed or mistreated at work? FETU has your back. 🛡️
+**Why Join FETU?****
+- Ever felt unfairly dismissed or mistreated at work? FETU has your back.. 🛡️
 - Worried about injuries on the job? We fight for your compensation. 💰
 - Together, we can address the neglect our profession faces and pave the way for a brighter future. ✨
 
