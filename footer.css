@@ -204,3 +204,40 @@ h1, h2, h3, h4, h5, h6 {
 
 /*************footer End*****************/
 
+
+
+/* Add these missing CSS classes */
+.bg_color {
+    background: #fbfbfd;
+}
+
+.wow {
+    visibility: hidden;
+}
+
+.pl_70 {
+    padding-left: 70px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.f_400 {
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .pl_70 {
+        padding-left: 15px;
+    }
+    .new_footer_top {
+        padding: 50px 0px 100px;
+    }
+}

@@ -28,19 +28,12 @@
 }
 .nav_side a {
   text-decoration: none;
-  /* margin-right: 1px; */
   margin-left: 9px;
-  /* margin-top: 20px;
-  padding-top: 20px; */
   padding-left: 15px;
   color: white;
   font-weight: bold;
   font-family: "Trebuchet MS", sans-serif;
   font-size: 13px;
-  /* justify-content: center; */
-  /* align-items: center;
-  align-content: center;
-  text-align: center; */
 }
 .nav_side a:hover {
   color: rgb(79, 255, 88);
@@ -420,15 +413,6 @@ footer p {
   font-family: "Trebuchet MS", sans-serif;
   color: white;
 }
-
-/* .product .product_about.item {
-    width: 33%;
-    margin: 10px;
-    height: 80%;
-    background-color: black;
-    opacity: 80%;
-    border-radius: 50%;
-  } */
 /*--------------------------------------------DONATE----------------------------------------*/
 .donate {
   font-family: "Trebuchet MS", sans-serif;
@@ -791,19 +775,6 @@ footer p {
     transition: 0.5s;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Default state: Hide the mobile menu and show links on desktop */
 .mobile-menu-btn {
