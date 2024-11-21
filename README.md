@@ -21,7 +21,7 @@ At FETU, we're not just another organization; we're a community dedicated to cha
 - Remember, the destiny of our profession rests on our collective action. Let's take our place and drive the national development agenda forward! 🚀
 
 **Get in Touch:**
-- Want to learn more? Reach out to us and become part of something bigger. 📩
+- Want to learn more? Reach out to us and become part of something bigger. ...📩
 
 **Together, Let's Build a Better Tomorrow. 💪**
 
