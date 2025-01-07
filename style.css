@@ -18,33 +18,34 @@
 }
 .logo img {
   padding: 8px;
-  width: 30%;
+  width: 43%;
   margin-left: 10%;
 }
 .nav_side {
-  float: right;
-  width: 95%;
-  margin-top: 20px;
+  /* float: left; */
+  width: 180%;
+  margin-top: 15px;
 }
 .nav_side a {
   text-decoration: none;
-  margin-right: 10px;
-  margin-left: 50px;
-  margin-top: 20px;
-  padding-top: 20px;
+  margin-left: 9px;
   padding-left: 15px;
   color: white;
   font-weight: bold;
   font-family: "Trebuchet MS", sans-serif;
-  font-size: 15px;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  text-align: center;
+  font-size: 13px;
 }
 .nav_side a:hover {
   color: rgb(79, 255, 88);
   transition: all 1s ease;
+}
+
+h2.typed {
+  margin-top: 60px;
+  color: black; /* Make the heading text black */
+  font-size: 24px;
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: bold;
 }
 
 .parallax {
@@ -412,15 +413,6 @@ footer p {
   font-family: "Trebuchet MS", sans-serif;
   color: white;
 }
-
-/* .product .product_about.item {
-    width: 33%;
-    margin: 10px;
-    height: 80%;
-    background-color: black;
-    opacity: 80%;
-    border-radius: 50%;
-  } */
 /*--------------------------------------------DONATE----------------------------------------*/
 .donate {
   font-family: "Trebuchet MS", sans-serif;
@@ -782,7 +774,76 @@ footer p {
     border: 2px double whitesmoke;
     transition: 0.5s;
   }
+}
 
+/* Default state: Hide the mobile menu and show links on desktop */
+.mobile-menu-btn {
+  display: none;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+  border: 2px solid white; /* White border for visibility */
+  border-radius: 5px; /* Rounded corners */
+  color: rgb(255, 255, 255);
+  padding: 10px 15px; /* Padding for larger clickable area */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
 
+.nav_side {
+  display: flex;
+  justify-content: flex-end;
+}
 
+@media (max-width: 768px) {
+  .nav_side {
+      display: none; /* Hide menu links on mobile */
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .mobile-menu-btn {
+      display: block; /* Show the hamburger menu button */
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      background-color: rgba(255, 255, 255, 0.2); /* Button visible on mobile */
+  }
+
+  #mobileMenu {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.9);
+      width: 100%;
+      text-align: center;
+      z-index: 1;
+  }
+
+  #mobileMenu.show {
+      max-height: 500px; /* Adjust as needed */
+  }
+
+  #mobileMenu a {
+      display: block;
+      padding: 10px 0;
+      color: rgb(44, 252, 79);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  #mobileMenu a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  /* Beautified button hover and interactivity */
+  .mobile-menu-btn:hover {
+      background-color: rgba(255, 255, 255, 0.8); /* Brighter on hover */
+      color: black; /* Dark icon color on hover */
+      box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.5); /* Enhance shadow */
+      transform: scale(1.1); /* Slightly enlarge button on hover */
+  }
 }

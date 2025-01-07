@@ -6,13 +6,13 @@ At FETU, we're not just another organization; we're a community dedicated to cha
 - We're a safe haven for all Engineers, Technicians, and Technologists, regardless of age, background, or status. 🤝
 - Our goal is simple: to build the future together. United, we stand strong; divided, we falter. 💪
 
-**Our Purpose:**
+**Our Purpose:***
 - While existing bodies like UIPE and ERB focus on industry regulation, FETU is laser-focused on the welfare of our members.... 🎯
 - We fight for fair treatment, just compensation, and safe working conditions. ⚖️
 - Our vision extends to future collaborations with foreign firms to offer job opportunities to our members. 🌍
 
-**Why Join FETU?**
-- Ever felt unfairly dismissed or mistreated at work? FETU has your back. 🛡️
+**Why Join FETU?****
+- Ever felt unfairly dismissed or mistreated at work? FETU has your back.. 🛡️
 - Worried about injuries on the job? We fight for your compensation. 💰
 - Together, we can address the neglect our profession faces and pave the way for a brighter future. ✨
 
@@ -21,7 +21,7 @@ At FETU, we're not just another organization; we're a community dedicated to cha
 - Remember, the destiny of our profession rests on our collective action. Let's take our place and drive the national development agenda forward! 🚀
 
 **Get in Touch:**
-- Want to learn more? Reach out to us and become part of something bigger. 📩
+- Want to learn more? Reach out to us and become part of something bigger. ...📩
 
 **Together, Let's Build a Better Tomorrow. 💪**
 
