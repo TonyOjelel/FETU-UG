@@ -74,6 +74,37 @@
                 background-color: #04fc10; /* Darker green on hover */
             }
          </style>
+         <style>
+            .dropdown {
+              position: relative;
+              display: inline-block;
+            }
+            .dropbtn {
+              text-decoration: none;
+              /* padding: 1px; */
+              display: block;
+            }
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: white;
+              box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+              min-width: 150px;
+              z-index: 1;
+            }
+            .dropdown-content a {
+              color: black;
+              padding: 10px;
+              display: block;
+              text-decoration: none;
+            }
+            .dropdown-content a:hover {
+              background-color: #f1f1f1;
+            }
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+          </style>
 </head>
 <body>
     <!-- ----------------------------------------NAVBAR----------------------------------------------------->
@@ -87,7 +118,17 @@
         <div class="nav_side" id="mobileMenu">
             <a href="about.html">About us</a>
             <a href="donate.html">Donate</a>
-            <a href="https://fetu-ug.org:2096/">Webmail</a>
+            <!-- <a href="https://fetu-ug.org:2096/">Webmail</a> -->
+
+<!-- Dropdown for Fetushop -->
+<div class="dropdown">
+    <a href="#" class="dropbtn">FetuShop ▼</a>
+    <div class="dropdown-content">
+      <a href="https://fetu-ug.org/fetushop/">For Customers</a>
+      <a href="https://fetu-ug.org/fetushop/admin741kihxpjssagkgsy25/index.php?controller=AdminLogin&logout=1&token=4eca91082f1b001f0819ab0b5e545a1b ">For Sellers</a>
+    </div>
+  </div>
+
             <a href="report.html">Submit Complaint</a>
             <a href="https://fetuprofessionaltrainings.rsvpify.com/">Trainings</a>
             <a href="Team.html">Our Team</a>

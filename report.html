@@ -25,6 +25,38 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <style>
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        .dropbtn {
+          text-decoration: none;
+          /* padding: 1px; */
+          display: block;
+        }
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: white;
+          box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+          min-width: 150px;
+          z-index: 1;
+        }
+        .dropdown-content a {
+          color: black;
+          padding: 10px;
+          display: block;
+          text-decoration: none;
+        }
+        .dropdown-content a:hover {
+          background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+      </style>
+
 </head>
 <body>
     <!-- ----------------------------------------NAVBAR----------------------------------------------------->
@@ -38,7 +70,16 @@
         <div class="nav_side" id="mobileMenu">
             <a href="about.html">About us</a>
             <a href="donate.html">Donate</a>
-            <a href="https://fetu-ug.org:2096/">Webmail</a>
+            <!-- <a href="https://fetu-ug.org:2096/">Webmail</a> -->
+
+            <div class="dropdown">
+                <a href="#" class="dropbtn">FetuShop ▼</a>
+                <div class="dropdown-content">
+                  <a href="https://fetu-ug.org/fetushop/">For Customers</a>
+                  <a href="https://fetu-ug.org/fetushop/admin741kihxpjssagkgsy25/index.php?controller=AdminLogin&logout=1&token=4eca91082f1b001f0819ab0b5e545a1b ">For Sellers</a>
+                </div>
+              </div>
+
             <a href="report.html">Submit Complaint</a>
             <a href="https://fetuprofessionaltrainings.rsvpify.com/">Trainings</a>
             <a href="Team.html">Our Team</a>
