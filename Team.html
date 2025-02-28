@@ -45,47 +45,143 @@
       integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ"
       crossorigin="anonymous"
     />
+    <style>
+        /* Custom styles for Team.html navigation */
+        .nav_side {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 75%;
+        }
+
+        .nav_side a, .nav_side .dropdown {
+            margin: 0 3px;
+            padding: 5px 10px;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.9);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            top: 100%;
+            left: 0;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            margin: 0;
+        }
+
+        .dropdown-content a:hover {
+            background-color: rgba(79, 255, 88, 0.1);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropbtn {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+
+        .dropbtn:after {
+            content: "▼";
+            margin-left: 5px;
+            font-size: 10px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .nav_side {
+                display: none;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.95);
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 20px 0;
+            }
+
+            .nav_side.show {
+                display: flex;
+            }
+
+            .nav_side a, .nav_side .dropdown {
+                width: 100%;
+                margin: 5px 0;
+                padding: 10px 20px;
+            }
+
+            .dropdown-content {
+                position: static;
+                background-color: rgba(0, 0, 0, 0.2);
+                box-shadow: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+        }
+    </style>
 </head>
 
 <body>
-	<!-- ----------------------------------------NAVBAR----------------------------------------------------->
-	<nav class="nav nav_top">
-      <div class="logo">
-          <a href="index.html"><img src="images/logo.png" width="250"></a>
-      </div>
-      <!-- Hamburger Button -->
-      <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+    <!-- ----------------------------------------NAVBAR----------------------------------------------------->
+    <nav class="nav nav_top">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" width="250"></a>
+        </div>
+        <!-- Hamburger Button -->
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
 
-      <div class="nav_side" id="mobileMenu">
-          <a href="about.html">About us</a>
-          <a href="donate.html">Donate</a>
+        <div class="nav_side" id="mobileMenu">
+            <a href="about.html">About us</a>
+            <a href="donate.html">Donate</a>
 
-          <!-- Dropdown for Fetushop -->
-          <div class="dropdown">
-              <a href="#" class="dropbtn">FetuShop ▼</a>
-              <div class="dropdown-content">
-                  <a href="https://fetu-ug.org/fetushop/">For Customers</a>
-                  <a href="https://fetu-ug.org/fetushop/admin741kihxpjssagkgsy25/index.php?controller=AdminLogin&logout=1&token=4eca91082f1b001f0819ab0b5e545a1b">For Sellers</a>
-              </div>
-          </div>
+            <!-- Dropdown for Fetushop -->
+            <div class="dropdown">
+                <a href="#" class="dropbtn">FetuShop</a>
+                <div class="dropdown-content">
+                    <a href="https://fetu-ug.org/fetushop/">For Customers</a>
+                    <a href="https://fetu-ug.org/fetushop/admin741kihxpjssagkgsy25/index.php?controller=AdminLogin&logout=1&token=4eca91082f1b001f0819ab0b5e545a1b">For Sellers</a>
+                </div>
+            </div>
 
-          <a href="report.html">Submit Complaint</a>
-          <a href="https://fetuprofessionaltrainings.rsvpify.com/">Trainings</a>
-          
-          <!-- Dropdown for Our Team -->
-          <div class="dropdown">
-              <a href="#" class="dropbtn">Our Team ▼</a>
-              <div class="dropdown-content">
-                  <a href="Team.html">Executive Team</a>
-                  <a href="leader.html">Uganda Team</a>
-              </div>
-          </div>
+            <a href="report.html">Submit Complaint</a>
+            <a href="https://fetuprofessionaltrainings.rsvpify.com/">Trainings</a>
+            
+            <!-- Dropdown for Our Team -->
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Our Team</a>
+                <div class="dropdown-content">
+                    <a href="Team.html">Executive Team</a>
+                    <a href="leader.html">Uganda Team</a>
+                </div>
+            </div>
 
-          <a href="contact.html">Contact us</a>
-          <a href="members.html">Members List</a>
-          <a href="https://form.jotform.com/242787201364558">Register</a>
-          <a href="https://fetu-ug.org/admidio/adm_program/system/login.php">Sign in</a>
-      </div>
+            <a href="contact.html">Contact us</a>
+            <a href="members.html">Members List</a>
+            <a href="https://form.jotform.com/242787201364558">Register</a>
+            <a href="https://fetu-ug.org/admidio/adm_program/system/login.php">Sign in</a>
+        </div>
     </nav>
     <!-- --------------------------------------------MAIN----------------------------------------------------------->
 	<section id="team" class="section gray-bg">
